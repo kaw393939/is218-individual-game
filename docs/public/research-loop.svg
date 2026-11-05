@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="460" viewBox="0 0 460 460" fill="none">
+  <defs>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" stroke="#29444B" stroke-opacity=".35"/></pattern>
+    <linearGradient id="panel" x1="30" y1="20" x2="430" y2="440" gradientUnits="userSpaceOnUse"><stop stop-color="#16353E"/><stop offset="1" stop-color="#0C232C"/></linearGradient>
+  </defs>
+  <rect x="12" y="12" width="436" height="436" rx="24" fill="url(#panel)"/>
+  <rect x="12.5" y="12.5" width="435" height="435" rx="23.5" stroke="#35535A"/>
+  <rect x="13" y="13" width="434" height="434" rx="23" fill="url(#grid)"/>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <text x="42" y="49" fill="#8FDAC7" font-size="10" letter-spacing="1.7">HUMAN + AI</text>
+    <text x="42" y="77" fill="#F0F5F1" font-family="system-ui, sans-serif" font-size="23" font-weight="650" letter-spacing="-.6">The research loop</text>
+    <rect x="340" y="37" width="78" height="25" rx="5" fill="#253F41" stroke="#46615A"/>
+    <text x="353" y="53" fill="#C3E88D" font-size="9" letter-spacing="1">PLAN 01</text>
+
+    <path d="M91 149V350" stroke="#48666A" stroke-width="1.5" stroke-dasharray="3 5"/>
+
+    <rect x="42" y="103" width="327" height="63" rx="10" fill="#1B3A42" stroke="#41616A"/>
+    <rect x="58" y="119" width="31" height="31" rx="7" fill="#34564F"/>
+    <path d="M67 135h13M73.5 128.5v13" stroke="#C3E88D" stroke-width="2" stroke-linecap="round"/>
+    <text x="103" y="129" fill="#F0F5F1" font-family="system-ui, sans-serif" font-size="15" font-weight="600">Human intent</text>
+    <text x="103" y="148" fill="#A9C1C6" font-size="10">Game loop · constraints · goals</text>
+    <text x="337" y="139" fill="#769B9E" font-size="11">01</text>
+
+    <path d="m87 175 4 4 4-4" stroke="#8BCABB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="64" y="185" width="327" height="63" rx="10" fill="#1B3A42" stroke="#41616A"/>
+    <rect x="80" y="201" width="31" height="31" rx="7" fill="#254B52"/>
+    <path d="m95.5 207 2.2 5.3 5.3 2.2-5.3 2.2-2.2 5.3-2.2-5.3-5.3-2.2 5.3-2.2 2.2-5.3Z" stroke="#8FDAC7" stroke-width="1.5" stroke-linejoin="round"/>
+    <text x="125" y="211" fill="#F0F5F1" font-family="system-ui, sans-serif" font-size="15" font-weight="600">AI draft</text>
+    <text x="125" y="230" fill="#A9C1C6" font-size="10">Ideas · code · asset candidates</text>
+    <text x="359" y="221" fill="#769B9E" font-size="11">02</text>
+
+    <path d="m87 257 4 4 4-4" stroke="#8BCABB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="42" y="267" width="327" height="63" rx="10" fill="#1B3A42" stroke="#41616A"/>
+    <rect x="58" y="283" width="31" height="31" rx="7" fill="#4D4939"/>
+    <path d="m67 299 4 4 9-10" stroke="#E5BD7E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="103" y="293" fill="#F0F5F1" font-family="system-ui, sans-serif" font-size="15" font-weight="600">Human review</text>
+    <text x="103" y="312" fill="#A9C1C6" font-size="10">Understand · verify · refine</text>
+    <text x="337" y="303" fill="#769B9E" font-size="11">03</text>
+
+    <path d="m87 339 4 4 4-4" stroke="#8BCABB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="64" y="349" width="327" height="63" rx="10" fill="#234137" stroke="#678760"/>
+    <rect x="80" y="365" width="31" height="31" rx="7" fill="#3A5C43"/>
+    <path d="m92 373 8 7-8 7v-14Z" fill="#C3E88D"/>
+    <text x="125" y="375" fill="#F0F5F1" font-family="system-ui, sans-serif" font-size="15" font-weight="600">Playtest &amp; learn</text>
+    <text x="125" y="394" fill="#BCD0BA" font-size="10">Does it work? Is it fun?</text>
+    <text x="359" y="385" fill="#91AF85" font-size="11">04</text>
+
+    <path d="M404 380h12V134h-34" stroke="#718E86" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 5"/>
+    <path d="m386 130-4 4 4 4" stroke="#8BCABB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="42" y="434" fill="#91ABA9" font-size="8" letter-spacing="1">PROPOSED WORKFLOW · NOT YET TESTED</text>
+  </g>
+</svg>
