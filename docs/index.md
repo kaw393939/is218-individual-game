@@ -1,36 +1,22 @@
 ---
 layout: home
 title: AI Game Lab
-description: A research and planning notebook for making a small game with AI. Sources, engine comparisons, and experiments to plan before development begins.
+description: Research AI game development, REA game reconstruction, and the tools and decisions for a small original game.
 
 hero:
   name: AI Game Lab / IS218
   text: Research before the first build.
-  tagline: A working notebook for making games with AI. Explore the tools, question the tradeoffs, and shape a small game we can actually finish.
+  tagline: Explore how AI assists game development, what REA can reconstruct from existing games, and which tools and decisions matter before our first build.
   image:
     src: /research-loop.svg
     alt: Proposed development loop, from human intent to an AI draft, human review, and playtesting.
   actions:
     - theme: brand
-      text: Explore the research
-      link: /research/overview
+      text: How REA reconstructs games
+      link: /research/rea-game-reconstruction
     - theme: alt
       text: See the project plan
       link: /planning/roadmap
-
-features:
-  - title: 01 — Research
-    details: Compare engines, study AI workflows, and collect primary sources. Separate documented capabilities from claims we still need to test.
-    link: /research/overview
-    linkText: Read the findings
-  - title: 02 — Plan
-    details: Define the game loop, scope the first playable version, and design experiments with clear success criteria.
-    link: /planning/game-brief
-    linkText: Shape the game brief
-  - title: 03 — Build later
-    details: Implementation begins after the research and planning decisions. No game prototype or completed experiments are claimed here.
-    link: /planning/experiments
-    linkText: Review planned experiments
 ---
 
 <script setup>
@@ -40,20 +26,19 @@ import { withBase } from 'vitepress'
 <div class="lab-home">
   <div class="lab-status">
     <strong>Research &amp; planning</strong>
-    <span>Snapshot · November 5, 2026</span>
-    <span>Game development has not started</span>
+    <span>Reviewed · November 5, 2026</span>
   </div>
   <div class="lab-question">
     <div>
-      <div class="lab-eyebrow">The research question</div>
-      <h2>Where can AI help us make a better small game?</h2>
-      <p>Start with a playable idea and human judgment. Use this notebook to decide where AI could save effort, where its output needs checking, and what evidence will guide the first build.</p>
+      <div class="lab-eyebrow">Start here</div>
+      <h2>Understand the tools. Plan an original game.</h2>
+      <p>Start with documented examples and their limits. Compare engines, choose an AI workflow, and define a manageable game for a solo developer with clear goals before coding begins.</p>
     </div>
     <ul class="lab-topics">
-      <li><a :href="withBase('/research/engines.html')"><span>01</span>Choose an engine to investigate<b aria-hidden="true">↗</b></a></li>
-      <li><a :href="withBase('/research/ai-workflows.html')"><span>02</span>Map AI into the workflow<b aria-hidden="true">↗</b></a></li>
-      <li><a :href="withBase('/research/asset-pipeline.html')"><span>03</span>Plan art, audio, and provenance<b aria-hidden="true">↗</b></a></li>
-      <li><a :href="withBase('/research/sources.html')"><span>04</span>Follow the source material<b aria-hidden="true">↗</b></a></li>
+      <li><a :href="withBase('/research/rea-game-reconstruction.html')"><span>01</span>REA and game reconstruction<b aria-hidden="true">↗</b></a></li>
+      <li><a :href="withBase('/research/engines.html')"><span>02</span>Compare game engines<b aria-hidden="true">↗</b></a></li>
+      <li><a :href="withBase('/research/ai-workflows.html')"><span>03</span>AI development workflow<b aria-hidden="true">↗</b></a></li>
+      <li><a :href="withBase('/planning/game-brief.html')"><span>04</span>Define the game brief<b aria-hidden="true">↗</b></a></li>
     </ul>
   </div>
 </div>

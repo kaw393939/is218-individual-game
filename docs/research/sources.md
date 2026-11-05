@@ -26,6 +26,19 @@ description: Official sources reviewed for the November 5, 2026 AI game developm
 | [GitHub: Copilot plan mode](https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/use-copilot-agents/use-plan-mode) | Planning before implementation | Living documentation; editor support varies |
 | [GitHub: Copilot Agents application card](https://docs.github.com/en/copilot/responsible-use/agents) | Known limitations and review responsibilities | Living documentation |
 
+## REA and game reconstruction
+
+| Source | What it supports | Date note |
+| --- | --- | --- |
+| [REA 6.8.0 release](https://github.com/morluto/rea/releases/tag/rea-agents-6.8.0) | Release used for our static Mac inspections | Published October 25, 2026 |
+| [REA project](https://github.com/morluto/rea) | Analysis workflows, native providers, and reconstruction limits | Living documentation |
+| [DX-Ball case study](https://rea.tools/showcase/dx-ball/) | A sound-pan function reconstructed and compared with original code | Project checkpoint October 7, 2026 |
+| [Touhou 4 case study](https://rea.tools/showcase/th04/) | Bullet-angle inspection and its relationship to a maintained reconstruction | Recorded inspection October 7, 2026 |
+| [LSLib](https://github.com/Norbyte/lslib) | Larian package extraction and resource conversion | Specialist tool; platform support varies |
+| [WolvenKit](https://github.com/WolvenKit/WolvenKit) | REDengine archive/resource workflows | Specialist tool; platform support varies |
+
+**Tested here:** REA 6.8.0 inspected the BG3 and Cyberpunk Mac executables and bundle metadata. Selected `.pak` and `.archive` probes returned unsupported-format errors. The [REA guide](./rea-game-reconstruction.md) summarizes these observations; raw reports stay local.
+
 ## Assets and distribution
 
 | Source | What it supports | Date note |

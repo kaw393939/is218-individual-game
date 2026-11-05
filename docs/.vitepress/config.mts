@@ -26,6 +26,7 @@ export default defineConfig({
           { text: 'Start here', link: '/research/overview' },
           { text: 'Engine comparison', link: '/research/engines' },
           { text: 'AI workflows', link: '/research/ai-workflows' },
+          { text: 'REA & game reconstruction', link: '/research/rea-game-reconstruction' },
           { text: 'Assets & provenance', link: '/research/asset-pipeline' },
           { text: 'Source library', link: '/research/sources' }
         ]

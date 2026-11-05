@@ -2,13 +2,14 @@
 
 **[Visit the research and planning site →](https://kaw393939.github.io/is218-individual-game/)**
 
-A VitePress notebook for researching how to make games with AI, with an initial research snapshot dated **November 5, 2026**. It contains source-backed findings, engine comparisons, a game brief, an experiment backlog, and a decision log.
+A VitePress notebook for making games with AI: engine comparisons, REA game reconstruction, and a practical project plan. Research snapshot: **November 5, 2026**.
 
-**Current phase: research and planning.** Game implementation comes later; this repository currently contains the documentation site only. Proposed experiments have not been run, and an engine has not been selected.
+**Current phase: research and planning.** Static BG3/Cyberpunk inspections are recorded; game implementation and engine selection come later.
 
 ## Read the notebook
 
 - [Research overview](https://kaw393939.github.io/is218-individual-game/research/overview.html)
+- [REA and game reconstruction](https://kaw393939.github.io/is218-individual-game/research/rea-game-reconstruction.html)
 - [Engine comparison](https://kaw393939.github.io/is218-individual-game/research/engines.html)
 - [Research roadmap](https://kaw393939.github.io/is218-individual-game/planning/roadmap.html)
 - [Source library](https://kaw393939.github.io/is218-individual-game/research/sources.html)
